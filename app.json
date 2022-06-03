@@ -15,7 +15,7 @@
 	"env": {
 		"DRSS_START": {
 			"description": "Determine what parts of MonitoRSS to start. Input bot to only start the bot, web to start only the web, or bot-web to start both. If using web, use the Heroku web dyno, NOT the worker dyno to accept requests. To keep the web dyno from sleeping, use something like uptimerobot (free app).",
-			"value": "bot"
+			"value": "bot-web"
 		},
 		"DRSS_BOT_TOKEN": {
 			"description": "Discord Bot token. Get it here: https://discordapp.com/developers/applications/."
